@@ -11,7 +11,7 @@ Todo el contenido relacionado a las clases estará dispuesto en este repositorio
  
  # ¿Qué vas a encontrar?
  
- Dentro, vas a encontrar una carpeta con el nombre # components. Allí es dónde iremos alojando los archivos que vayamos construyendo en clase.
+ Dentro, vas a encontrar una carpeta con el nombre #components. Allí es dónde iremos alojando los archivos que vayamos construyendo en clase.
  Estarán dentro de otra carpeta week_nº con el número de la semana en la que estemos. Dentro de ella estarán el contenido de las 3 clases de la semana.
  
  # ¿Cómo estás con GitHub?
