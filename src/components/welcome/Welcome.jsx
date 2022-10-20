@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from '../../assets/react.svg'
 import './Welcome.css'
-
+//Solo Bienvenida
 const Welcome = () => {
   const [welcomeSuggestion, setWelcomeSuggestions] = useState(["pregunta lo que no entiendas", "apoyate de tus compañeros", "realiza todas las actividades de mesa", "agenda asesorías con el asistente, Ivan, ó directamente con el profe, Kike", "estudia mucho", "disfruta cada linea de código mientras aprendes... llorá cuando labures!"])
 
