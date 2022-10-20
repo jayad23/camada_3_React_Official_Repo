@@ -4,8 +4,7 @@ Bienvenidos a React,
 Todo el contenido relacionado a las clases estará dispuesto en este repositorio.
 
 # ¿Cómo instalarlo?
- - Descarga el repo como archivo comprimido .zip / .rar
- - Descomprímelo, y ubícalo en tus archivos de trabajo en tu compu.
+ - Cloná el repo a tu compu.
  - Abre la terminal sobre este código, ya sea desde tu editor de código, o desde la términal de tu equipo.
  - Ejecuta el comando # npm install
  
