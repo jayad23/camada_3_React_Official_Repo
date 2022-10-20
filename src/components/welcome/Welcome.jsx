@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from '../../assets/react.svg'
 import './Welcome.css'
-
+import Introduction from '../week_1/class_1/Introduction'
 const Welcome = () => {
   const [welcomeSuggestion, setWelcomeSuggestions] = useState(["pregunta lo que no entiendas", "apoyate de tus compañeros", "realiza todas las actividades de mesa", "agenda asesorías con el asistente, Ivan, ó directamente con el profe, Kike", "estudia mucho", "disfruta cada linea de código mientras aprendes... llorá cuando labures!"])
 
@@ -28,9 +28,12 @@ const Welcome = () => {
           }
         </ul>
       </div>
-      <p className="read-the-docs">
-        Digital House
-      </p>
+      <footer>
+        <p className="read-the-docs">
+          Digital House
+        </p>
+        <a href='https://1drv.ms/p/s!AmkmA2B9HL9O4SviBg1dspyERocW?e=5CwVsk' target="_blank">Ver presentación PDF de las clases</a>
+      </footer>
     </div >
   )
 }
