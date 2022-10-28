@@ -1,12 +1,9 @@
 import React, { Fragment } from 'react'
 import Keys from './components/week_2/class_2/Keys'
+import Main from './components/week_2/class_3/Main'
 
 const App = () => {
-    const greeting = {
-        hello: "Soy componente de clase",
-        subText: "Soy el hijo de Class Component"
-    }
-    return <Keys />
+    return <Main />
 }
 
 export default App
