@@ -1,9 +1,8 @@
 import React from 'react'
-import { TaskContainer, TaskCard, Button } from "./TaskStyle";
+import { TaskContainer, TaskCard, Button, Form, TextField } from "./TaskStyle";
 
 const Tasks = ({ title, data, handleTodos }) => (
   <TaskContainer >
-    <h1>{title}</h1>
     {
       data.map(todo => (
         <TaskCard key={todo.id}>
