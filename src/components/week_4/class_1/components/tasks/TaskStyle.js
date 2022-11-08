@@ -19,6 +19,7 @@ export const Button = styled.button`
   padding: 10px;
   border-radius: 4px;
   border: none;
-  background-color: peachpuff;
+  background-color: ${({ bgColor }) => bgColor ? "green": "crimson"};
+  color: #eee;
   cursor: pointer;
 `

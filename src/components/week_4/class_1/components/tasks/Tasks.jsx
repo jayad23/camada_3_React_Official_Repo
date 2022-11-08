@@ -1,7 +1,7 @@
 import React from 'react'
 import { TaskContainer, TaskCard, Button } from "./TaskStyle";
 
-const Tasks = ({ title, data }) => (
+const Tasks = ({ title, data, handleTodos }) => (
   <TaskContainer >
     <h1>{title}</h1>
     {
@@ -11,7 +11,7 @@ const Tasks = ({ title, data }) => (
             <p>{todo.task}</p>
           </section>
           <section style={{ width: "20%" }}>
-            <Button>{todo.isFinished ? "Hecho" : "Pendiente"}</Button>
+            <Button bgColor={todo.isFinished} onClick={() => handleTodos(todo)}>{todo.isFinished ? "Hecho" : "Pendiente"}</Button>
           </section>
         </TaskCard>
       ))

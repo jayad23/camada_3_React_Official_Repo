@@ -10,7 +10,7 @@ const HeaderComponent = ({ appTitle, handleSelection, todos, done, pending }) =>
       <ListContainer>
         <li onClick={() => handleSelection("todos")}>Todas: {todos.length}</li>
         <li onClick={() => handleSelection("finished")}>Terminadas: {done.length}</li>
-        <li onClick={() => handleSelection("pending")}>Pendientes: {pending.length}</li>
+        <li onClick={() => handleSelection("pending")}>Pendientes: {todos.length - done.length}</li>
       </ListContainer>
     </Header>
   )

@@ -3,6 +3,7 @@ import Header from './components/header/Header'
 import Tasks from './components/tasks/Tasks';
 import { data } from "./db";
 
+// ESTO ES SOLO INICIAL Y NO SE VA A RE-DEFINIR CON EL CAMBIO DE ESTADOS.
 const done = data.filter(todo => todo.isFinished === true);
 const pend = data.filter(todo => todo.isFinished === false);
 
@@ -13,6 +14,14 @@ const Dashboard = () => {
   const [pendingTasks, setPendingTasks] = useState(pend);
   const [selection, setSelection] = useState(null);
 
+  const handleTodos = (todo) => {
+    const taskSelected = todos.map(td => td.id === todo.id ? { ...td, isFinished: !td.isFinished } : td);
+    setTodos(taskSelected);
+    const tDone = taskSelected.filter(todo => todo.isFinished === true);
+    setDoneTasks(tDone);
+    const tPending = taskSelected.filter(todo => todo.isFinished === false);
+    setPendingTasks(tPending);
+  }
 
   const handleSelection = (param) => {
     setSelection(param);
@@ -21,15 +30,28 @@ const Dashboard = () => {
   const RenderComponent = (value) => {
     switch (value) {
       case "finished":
-        return <h1>Terminados</h1>
+        return (
+          <Tasks
+            title="Lista de Terminadas"
+            data={doneTasks}
+            handleTodos={handleTodos}
+          />
+        )
       case "pending":
-        return <h1>Pendientes</h1>
+        return (
+          <Tasks
+            title="Lista de Pendientes"
+            data={pendingTasks}
+            handleTodos={handleTodos}
+          />
+        )
       default:
       case "todos":
         return (
           <Tasks
             title="Lista de todas"
             data={todos}
+            handleTodos={handleTodos}
           />
         )
     }
