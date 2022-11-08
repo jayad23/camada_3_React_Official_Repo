@@ -1,18 +1,18 @@
 import React from 'react'
 import { Header, Navbar, ListContainer } from "./headerStyles"
 
-const HeaderComponent = () => (
+const HeaderComponent = ({ appTitle, handleSelection, todos, done, pending }) => (
   (
-    <header>
-      <nav>
-        <p>Nombre de la App</p>
-      </nav>
-      <ul>
-        <li>Todas: 12</li>
-        <li>Terminadas: 4</li>
-        <li>Pendientes: 8</li>
-      </ul>
-    </header>
+    <Header>
+      <Navbar>
+        <p>{appTitle}</p>
+      </Navbar>
+      <ListContainer>
+        <li onClick={() => handleSelection("todos")}>Todas: {todos.length}</li>
+        <li onClick={() => handleSelection("finished")}>Terminadas: {done.length}</li>
+        <li onClick={() => handleSelection("pending")}>Pendientes: {pending.length}</li>
+      </ListContainer>
+    </Header>
   )
 )
 
