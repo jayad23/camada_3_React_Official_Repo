@@ -3,9 +3,10 @@ import React, { Fragment } from 'react'
 // import Main from './components/week_2/class_3/Main'
 // import LocalApp from './components/week_3/LocalApp'
 // import FormComponent from './components/week_3/class_2/FormComponent'
+import Dashboard from './components/week_4/class_1/Dashboard'
 
-const App = () => {
-    return <h1>Clase práctica 9</h1>
-}
+const App = () => (
+    <Dashboard />
+)
 
 export default App
