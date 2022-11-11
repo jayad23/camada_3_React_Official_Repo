@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* Estilos de la card */
+.card-container {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card-info {
+  padding: 10px;
+}
+
+.card {
+  outline: solid 1px black;
+  box-shadow: 1px 1px 1px 0.5 black;
+  /* border-radius: 4px; */
+  width: 300px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.button-container button {
+  width: 100%;
+  background-color: green;
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+  color: white;
+  cursor:pointer;
+}
+
+.text-button {
+  color: rgb(80, 80, 80);
+  cursor: pointer;
+}
+
+.text-button:hover {
+  color: black;
+  cursor: pointer;
+}
+
+
+.button-container {
+  display: flex;
+
+}
