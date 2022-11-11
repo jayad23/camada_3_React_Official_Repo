@@ -1,0 +1,57 @@
+{
+  "store": {
+    "logo": "https://i.pinimg.com/originals/44/70/f8/4470f811037ecfdd235f8e5e9d21a669.gif",
+    "name": "The Palaca of Jordans"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Nike Jordan Air I",
+      "demo_male": "https://media2.giphy.com/media/WNzdpwzusqLM1wb1gA/giphy.gif?cid=790b761193ed4cd00659666461aa0799b44f1ee0909e7f9e&rid=giphy.gif&ct=g",
+      "demo_female": "https://media.restocks.net/products/DD9335-641/air-jordan-1-retro-high-og-atmosphere-w-1-1000.png",
+      "price": "USD $350"
+    },
+    {
+      "id": 2,
+      "name": "Nike Jordan Air II",
+      "demo_male": "https://c.tenor.com/w8z6AtDE5DMAAAAC/sole-collector-sole-collector-gifs.gif",
+      "demo_female": "https://www.jordanukshop.com/wp-content/uploads/2019/03/womens-air-jordan-1-mid-gg-grey-fog-pink-white-uk-online-555112-id.jpeg",
+      "price": "USD $510"
+    },
+    {
+      "id": 3,
+      "name": "Nike Jordan Max Aura 4",
+      "demo_male": "https://www.manelsanchez.com/uploads/media/images/10A_2.gif",
+      "demo_female": "",
+      "price": "USD $450"
+    },
+    {
+      "id": 4,
+      "name": "Nike Jordan Delta II",
+      "demo_male": "https://i.ytimg.com/vi/a2eQ4pq-I-c/maxresdefault.jpg",
+      "demo_female": "https://static.nike.com/a/images/t_default/6b1e75c8-b392-4f4a-b94c-cac7a83bc4d9/air-jordan-11-cmft-low-zapatillas-bVCj8r.png",
+      "price": "USD $150"
+    },
+    {
+      "id": 5,
+      "name": "Nike Jordan NFH",
+      "demo_male": "https://www.highsnobiety.com/static-assets/wp-content/uploads/2021/01/28130114/best-general-release-jordans-new-07.gif",
+      "demo_female": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/9ba7132a-b42a-4087-ab2e-02b05ccedd30/jordan-max-aura-4-big-kids-shoes-m78sGC.png",
+      "price": "USD $1200"
+    },
+    {
+      "id": 5,
+      "name": "Nike Jordan NGR Retro 6",
+      "demo_male": "https://sneakerbardetroit.com/wp-content/uploads/2022/05/Air-Jordan-6-Cool-Grey-Release-Date-Mock.jpeg",
+      "demo_female": "https://cdn.flightclub.com/750/TEMPLATE/136258/1.jpg",
+      "price": "USD $3510"
+    },
+    {
+      "id": 6,
+      "name": "Nike Jordan Air Blackout",
+      "demo_male": "https://sneakernews.com/wp-content/uploads/2020/07/air-jordan-1-zoom-court-purple-CT0978-005-6.gif?w=1140",
+      "demo_female": "https://static.nike.com/a/images/t_default/89eb01e1-c41f-4aa1-b932-a9743b2fe914/air-jordan-1-mid-se-zapatillas-qgbNsW.png",
+      "price": "USD $750"
+    }
+  ]
+}
