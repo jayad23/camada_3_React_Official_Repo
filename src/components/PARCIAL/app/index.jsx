@@ -33,11 +33,14 @@ import AlfonsoGarcia from "../Alfonso_Garcia/App";
 import RockyMontero from "../Rocky_Montero/App";
 import IgnacioLopez from "../Ignacio_Lopez/App";
 import MicaelaBentos from "../Micaela_Bentos/App";
+import CeciliaAquinos from "../Cecilia_Aquino/App";
+import GastonInnamorato from "../Gaston_Innamorato/App";
+import PabloAlvarez from "../Pablo_Alvarez/App";
 
 const index = () => {
   return (
     <Fragment>
-      <MicaelaBentos />
+      <PabloAlvarez />
     </Fragment>
   )
 }
