@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "titulo": "Olas de calor sin precedentes y un invierno más frío de lo normal",
+        "texto": "Así fueron las llamativas condiciones que vivió la Argentina en el último tiempo según el reporte preliminar publicado por el Servicio Meteorológico Nacional.",
+        "likes": 0
+    },
+    {
+        "id": "2",
+        "titulo": "El misterioso palacio de Caballito que esconde secretos que pocos vecinos conocen",
+        "texto": "El imponente centro de gravitación de Aysa fue construido con materiales traídos desde Inglaterra e inaugurado en 1915. ¿Cuál es su función? la explicación de una experta de la empresa.",
+        "likes": 0
+    },
+    {
+        "id": "3",
+        "titulo": "Sorpresa en la Premier League: los dueños del Liverpool anunciaron que el club está en venta",
+        "texto": "Fenway, el grupo propietario del Liverpool, confirmó que tiene la disposición de escuchar ofertas para vender acciones del club inglés en medio de conjeturas que aceptaría ofertas de posibles compradores.",
+        "likes": 0
+    }
+]

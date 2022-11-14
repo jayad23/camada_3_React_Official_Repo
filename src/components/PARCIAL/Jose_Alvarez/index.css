@@ -1,0 +1,66 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Nunito', sans-serif;
+  background-color: #eee;
+}
+
+header {
+  background-color: rgb(52, 81, 198);
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1{
+  margin-bottom: 10px;
+}
+
+header p span {
+  background-color: black;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.container {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.posteo {
+  background-color: white;
+  border: 0.5px solid #ddd;
+  padding: 20px;
+  width: 33%;
+  border-radius: 5px;
+}
+
+.posteo h3{
+  margin-bottom: 10px;
+}
+.posteo p{
+  margin-bottom: 20px;
+}
+
+.posteo button{
+  /* display: inline; */
+  padding: 5px;
+  margin-right: 10px;
+}
+.posteo h5{
+  display: inline-block;
+  text-align: center;
+}

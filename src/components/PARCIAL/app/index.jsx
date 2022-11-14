@@ -44,11 +44,15 @@ import MiguelZapata from "../Miguel_Zapata/App";
 import FrancoDelgado from "../Franco_Delgado/App";
 import PaulaAcuna from "../Paula_Acuña/App";
 import FranciscoCardenas from "../Francisco_Cardenas/App";
+import CamilaAgostini from "../Camila_Agostini/App";
+import JoseLemos from "../Jose_M_Lemos/App";
+import JoseAlvarez from "../Jose_Alvarez/App";
+import VictorRayo from "../Victor_M_Rayo/App";
 
 const index = () => {
   return (
     <Fragment>
-      <FranciscoCardenas />
+      <VictorRayo />
     </Fragment>
   )
 }
