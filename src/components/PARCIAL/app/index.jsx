@@ -36,11 +36,19 @@ import MicaelaBentos from "../Micaela_Bentos/App";
 import CeciliaAquinos from "../Cecilia_Aquino/App";
 import GastonInnamorato from "../Gaston_Innamorato/App";
 import PabloAlvarez from "../Pablo_Alvarez/App";
+import PabloVelez from "../Pablo_Velez/App";
+import RamiroFerreras from "../Ramiro_Ferreras/App";
+import CiroRojas from "../Ciro_Rojas/App";
+import CeciliaBenitez from "../Cecilia_Benitez/App";
+import MiguelZapata from "../Miguel_Zapata/App";
+import FrancoDelgado from "../Franco_Delgado/App";
+import PaulaAcuna from "../Paula_Acuña/App";
+import FranciscoCardenas from "../Francisco_Cardenas/App";
 
 const index = () => {
   return (
     <Fragment>
-      <PabloAlvarez />
+      <FranciscoCardenas />
     </Fragment>
   )
 }
