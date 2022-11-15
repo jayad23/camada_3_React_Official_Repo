@@ -5,22 +5,11 @@ import React, { Fragment, useState } from 'react'
 // import FormComponent from './components/week_3/class_2/FormComponent'
 //ACTIVIDAD DE REPASO -- TODOS => import Dashboard from './components/week_4/class_1/Dashboard'
 //import Store from './components/week_4/class_3/Store'
-import CiclosEnClase from './components/week_5/CiclosEnClase'
-import CiclosEnFn from './components/week_5/CiclosEnFn';
 
 const App = () => {
-    const [showComponent, setShowComponent] = useState(true);
     return (
         <Fragment>
-            <h1>Títlo de Componente padre: APP</h1>
-            <div style={{ border: "10px solid green", padding: "20px" }}>
-                {
-                    showComponent && (
-                        <CiclosEnFn />
-                    )
-                }
-            </div>
-            <button onClick={() => setShowComponent(!showComponent)}>Toggle Show Component</button>
+            <h1>Semana 5, class 1</h1>
         </Fragment>
     )
 }
