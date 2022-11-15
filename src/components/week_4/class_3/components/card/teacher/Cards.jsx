@@ -46,7 +46,7 @@ const Cards = ({ product, handleSelectedProduct, handleAddPlusItem, handleRemove
         <h3 style={{ wordBreak: "break-word" }}>{product.name.slice(0, 12)}</h3>
         <h3 style={{ wordBreak: "break-word" }}>{product.name.slice(12, product.name.length)}</h3>
         <p>{product.price}</p>
-        {product.itemsSelected > 0 && (
+        {product.itemsSelected && product.itemsSelected > 0 && (
           <CustomSpan>
             This item in Cart: {product?.itemsSelected}
           </CustomSpan>
