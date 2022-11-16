@@ -37,7 +37,7 @@ const App = () => {
 }
 export default App
 
-{/**REVIEW => (8.5)
+{/**REVIEW => (9.0)
   - EXCELENTE COMPORTAMIENTO DEL CONTADOR GENERAL
   - PRESTA ATENCIÓN A LA INDENTACIÓN DEL CÓDIGO. 
 */}

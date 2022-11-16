@@ -28,7 +28,7 @@ function App() {
 }
 
 export default App;
-{/**REVIEW => (8.5)
+{/**REVIEW => (9.0)
   EL CONTADOR DEL HEADER NO DEBERÍA SUMAR MÁS VALORES
   DE PARTE DEL CONTADOR QUE YA ALCANZÓ SU LÍMITE.
 */}

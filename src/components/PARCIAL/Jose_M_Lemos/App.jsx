@@ -34,4 +34,6 @@ export default App;
 
   PROBLEMAS CON LA UI:
   1. EL BOTÓN DE LIKE SOLO TIENE UNA COMA.
+
+  TE DEJO IMAGEN.
 */}

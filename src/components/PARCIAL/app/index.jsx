@@ -48,11 +48,22 @@ import CamilaAgostini from "../Camila_Agostini/App";
 import JoseLemos from "../Jose_M_Lemos/App";
 import JoseAlvarez from "../Jose_Alvarez/App";
 import VictorRayo from "../Victor_M_Rayo/App";
+import AlejandroLaurito from "../Alejandro_Laurito/App";
+import MariaCArenas from "../Maria_C_Arenas/App";
+import AndresGalvan from "../Andres_Galvan/App";
+import PabloViera from "../Pablo_Viera/App";
+//import MaicolLazo from "../Maicol_Lazo/App";
+import JorgeSierra from "../Jorge_Sierra/App";
+import LucasBertiche from "../Lucas_Bertiche/App";
+import FranciscoGianzanti from "../Francisco_Gianzanti/App";
+import JudithGrau from "../Judith_Grau/App";
+import EzequielMelogno from "../Ezequiel_Melogno/App";
+import EmilioPino from "../EmilioPino/App";
 
 const index = () => {
   return (
     <Fragment>
-      <VictorRayo />
+      <EmilioPino />
     </Fragment>
   )
 }

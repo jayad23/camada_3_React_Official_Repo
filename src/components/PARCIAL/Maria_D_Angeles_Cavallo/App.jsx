@@ -29,7 +29,7 @@ const App = () => {
 
 export default App
 
-{/**REVIEW => (9.0)
+{/**REVIEW => (9.5)
   EL CONTADOR DEL HEADER NO DEBERÍA SUMAR MÁS VALORES
   DE PARTE DEL CONTADOR QUE YA ALCANZÓ SU LÍMITE.
 
