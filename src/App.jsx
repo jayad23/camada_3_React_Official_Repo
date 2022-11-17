@@ -6,7 +6,7 @@ import React, { Fragment, useState } from 'react'
 //ACTIVIDAD DE REPASO -- TODOS => import Dashboard from './components/week_4/class_1/Dashboard'
 //import Store from './components/week_4/class_3/Store'
 import ClassComponent from './components/week_5/class_1/ClassComponent'
-
+import FunctionComponent from './components/week_5/class_2/FunctionComponent';
 const App = () => {
     const [mostrar, setMostrar] = useState(false);
     return (
@@ -15,7 +15,7 @@ const App = () => {
             <div style={{ border: "5px solid green" }}>
                 {
                     mostrar && (
-                        <ClassComponent />
+                        <FunctionComponent />
                     )
                 }
             </div>

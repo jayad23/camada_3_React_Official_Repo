@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// import App from './App'
-// import './index.css'
-import Index from './components/PARCIAL/app'
+import App from './App'
+import './index.css'
+//import Index from './components/PARCIAL/app'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Index />
+    <App />
   </React.StrictMode>
 )
