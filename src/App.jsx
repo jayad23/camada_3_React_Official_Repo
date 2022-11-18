@@ -7,21 +7,7 @@ import React, { Fragment, useState } from 'react'
 //import Store from './components/week_4/class_3/Store'
 import ClassComponent from './components/week_5/class_1/ClassComponent'
 import FunctionComponent from './components/week_5/class_2/FunctionComponent';
-const App = () => {
-    const [mostrar, setMostrar] = useState(false);
-    return (
-        <Fragment>
-            <h1>Semana 5, class 1</h1>
-            <div style={{ border: "5px solid green" }}>
-                {
-                    mostrar && (
-                        <FunctionComponent />
-                    )
-                }
-            </div>
-            <button onClick={() => setMostrar(!mostrar)}>Mostrar componente</button>
-        </Fragment>
-    )
-}
+import Playlist from './components/week_5/class_3/Playlist';
+const App = () => <Playlist />
 
 export default App
