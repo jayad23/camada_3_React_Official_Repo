@@ -8,6 +8,23 @@ import React, { Fragment, useState } from 'react'
 import ClassComponent from './components/week_5/class_1/ClassComponent'
 import FunctionComponent from './components/week_5/class_2/FunctionComponent';
 import Playlist from './components/week_5/class_3/Playlist';
-const App = () => <Playlist />
+import LoginContainer from './components/week_6/class_1/pages/auth/login/Login.container';
+
+export const getValue = (value) => {
+  if (value === "expected") {
+    return 1;
+  }
+
+  return 0;
+}
+const App = ({ person }) => {
+  const [isAuth, setIsAuth] = useState(false);
+  return (
+    <div>
+      <h1>Hola {person}</h1>
+      <LoginContainer setIsAuth={setIsAuth} />
+    </div>
+  )
+}
 
 export default App

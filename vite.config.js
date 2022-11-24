@@ -13,5 +13,10 @@ export default defineConfig({
       },
     },
   },
-  plugins: [react()]
+  plugins: [react()],
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: ['./src/tests/Initial.test.jsx']
+  }
 })

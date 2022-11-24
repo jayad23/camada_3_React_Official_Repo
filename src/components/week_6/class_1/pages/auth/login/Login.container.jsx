@@ -13,7 +13,7 @@ const LoginContainer = ({ setIsAuth }) => {
 
     if (values.email.length > 0 && values.password.length > 0) {
       setIsAuth(true);
-      navigate("/home")
+      navigate("/users")
       console.log("submit", values);
     }
   }
