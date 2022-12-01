@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import Home from './Home'
-import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
+import { useGetData } from '../../../hooks/useGetData'
 
 const HomeContainer = () => {
-  const [usersData, setUsersData] = useState(null);
   const [userSearch, setUserSearch] = useState("");
   const [errorMessage, setErrorMessage] = useState(null);
+  const { data: usersData, isLoading, error } = useGetData(import.meta.env.VITE_APP_API_GH);
 
   const navigate = useNavigate();
 
@@ -18,16 +18,6 @@ const HomeContainer = () => {
       setErrorMessage("You must provide a user before the search")
     }
   }
-
-  const getData = () => {
-    axios.get(import.meta.env.VITE_APP_API_GH)
-      .then(res => setUsersData(res.data))
-      .catch(err => console.log(err));
-  }
-
-  useEffect(() => {
-    getData();
-  }, [])
 
   const childProps = {
     usersData,
