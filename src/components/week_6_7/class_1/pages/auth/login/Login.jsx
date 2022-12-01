@@ -8,9 +8,12 @@ const Login = (props) => {
     values,
     handleSubmit,
     handleChange,
+    counter, handlerCounter
   } = props;
   return (
     <div className={styled.authContainer}>
+      <h1>Counter: {counter}</h1>
+      <button onClick={handlerCounter}>Sumar</button>
       <form onSubmit={handleSubmit} className={styled.formContainer}>
         <TextField
           label="Email"

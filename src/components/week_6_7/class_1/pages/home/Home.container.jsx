@@ -2,12 +2,13 @@ import React, { useState, useEffect } from 'react'
 import Home from './Home'
 import { useNavigate } from 'react-router-dom'
 import { useGetData } from '../../../hooks/useGetData'
+import { useCounter } from '../../../hooks/useCounter'
 
 const HomeContainer = () => {
   const [userSearch, setUserSearch] = useState("");
   const [errorMessage, setErrorMessage] = useState(null);
   const { data: usersData, isLoading, error } = useGetData(import.meta.env.VITE_APP_API_GH);
-
+  const [counter, handlerCounter] = useCounter();
   const navigate = useNavigate();
 
   const handleSubmit = () => {
@@ -24,7 +25,8 @@ const HomeContainer = () => {
     userSearch,
     setUserSearch,
     errorMessage,
-    handleSubmit
+    handleSubmit,
+    counter, handlerCounter
   }
 
   return <Home {...childProps} />

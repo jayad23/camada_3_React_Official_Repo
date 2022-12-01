@@ -10,7 +10,8 @@ const Home = ({
   userSearch,
   setUserSearch,
   errorMessage,
-  handleSubmit
+  handleSubmit,
+  counter, handlerCounter
 }) => {
   return (
     <Grid
@@ -22,6 +23,8 @@ const Home = ({
         xs={12}
         item
       >
+        <h1>Counter: {counter}</h1>
+        <button onClick={handlerCounter}>Sumar</button>
         <TextField
           size="small"
           label="Find a user"
