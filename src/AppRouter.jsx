@@ -6,20 +6,22 @@ import AboutPage from './components/week_6_7/class_1/pages/about/About.container
 import LoginPage from './components/week_6_7/class_1/pages/auth/login/Login.container';
 import ErrorPage from './components/week_6_7/class_1/pages/error/Error';
 import UserPage from './components/week_6_7/class_1/pages/user/User.container';
+import AuthenticationProvider from './components/week_6_7/class_1/context/GhContext';
 
 const AppRouter = () => {
-  const [isAuth, setIsAuth] = useState(false);
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/login" element={<LoginPage setIsAuth={setIsAuth} />} />
-        <Route element={<ProtectedRoutes isAuthenticated={isAuth} />}>
-          <Route path="/users" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/users/user/:login" element={<UserPage />} />
-        </Route>
-        <Route path="*" element={<ErrorPage />} />
-      </Routes>
+      <AuthenticationProvider>
+        <Routes>
+          <Route path="/login" element={<LoginPage />} />
+          <Route element={<ProtectedRoutes />}>
+            <Route path="/users" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/users/user/:login" element={<UserPage />} />
+          </Route>
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+      </AuthenticationProvider>
     </BrowserRouter>
   )
 }

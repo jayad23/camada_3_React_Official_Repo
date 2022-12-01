@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { AuthenticationContext } from '../../context/GhContext';
 import { Outlet, Navigate } from "react-router-dom";
 
-const ProtectedRoutes = ({ isAuthenticated }) => {
-  console.log(isAuthenticated);
+const ProtectedRoutes = () => {
+  const { isAuthenticated } = useContext(AuthenticationContext);
+
   if (!isAuthenticated) {
     return <Navigate to="/login" />
   }
