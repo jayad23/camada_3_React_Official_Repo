@@ -8,5 +8,5 @@ export const routes = [
 ]
 
 export const socialNetwork = [
-  { linkto: "www.google.com", snTitle: "Google", Icon: GoogleIcon}
+  { linkto: "www.google.com", snTitle: "Google", Icon: GoogleIcon }
 ]
