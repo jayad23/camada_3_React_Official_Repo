@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
-import { DarkModeContext } from './contex-darkMode/DarkMode';
+import { DarkModeContext } from '../contex-darkMode/DarkMode';
 import { useNavigate } from 'react-router-dom'
 
-const About = () => {
+export const About = () => {
   const { state, dispatch } = useContext(DarkModeContext);
   const navigate = useNavigate();
   return (
@@ -13,5 +13,3 @@ const About = () => {
     </div>
   )
 }
-
-export default About
